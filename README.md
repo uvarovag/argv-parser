@@ -1,7 +1,6 @@
 # Node.js Arguments Parser
 
 A lightweight and flexible arguments parser for Node.js with full support for TypeScript, CommonJS (CJS), and ES Modules (ESM).
-🚀 Zero dependencies – built for efficiency and simplicity.
 
 ## Installation
 
@@ -14,19 +13,44 @@ npm install @uvarovag/argv-parser
 ### ES Modules (ESM)
 
 ```js
-import parseArgs from '@uvarovag/argv-parser'
+import { parseArgv } from '@uvarovag/argv-parser'
 
-const args = parseArgs(process.argv)
+const args = parseArgv(process.argv)
 console.log(args)
 ```
 
 ### CommonJS (CJS)
 
 ```js
-const parseArgs = require('@uvarovag/argv-parser')
+const { parseArgv } = require('@uvarovag/argv-parser')
 
-const args = parseArgs(process.argv)
+const args = parseArgv(process.argv)
 console.log(args)
 ```
 
 ## Examples // TODO
+
+```bash
+node ./test.js --positive=42 -negative=-10 --float=3.14 -true=true --false=false --text=hello --special=foo=bar --empty
+```
+
+```js
+// test.js
+import { parseArgv } from '@uvarovag/argv-parser'
+
+const args = parseArgv(process.argv)
+console.log(args)
+
+{
+    node: '/opt/homebrew/Cellar/node/21.2.0/bin/node',
+    script: '/Users/uvarovag/Desktop/rect-app/test.js',
+    positive: 42,
+    negative: -10,
+    float: 3.14,
+    true: true,
+    false: false,
+    text: 'hello',
+    special: 'foo=bar',
+    empty: true,
+}
+```
