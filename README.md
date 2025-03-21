@@ -28,3 +28,5 @@ const parseArgs = require('@uvarovag/argv-parser')
 const args = parseArgs(process.argv)
 console.log(args)
 ```
+
+## Examples // TODO
