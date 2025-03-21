@@ -1,6 +1,6 @@
 # Node.js Arguments Parser
 
-A lightweight and flexible arguments parser for Node.js with full support for TypeScript, CommonJS (CJS), and ES Modules (ESM).
+Lightweight and flexible arguments parser for Node.js with full support for TypeScript, CommonJS (CJS), and ES Modules (ESM).
 
 ## Installation
 
@@ -28,7 +28,7 @@ const args = parseArgv(process.argv)
 console.log(args)
 ```
 
-## Examples // TODO
+## Examples
 
 ```bash
 node ./test.js --positive=42 -negative=-10 --float=3.14 -true=true --false=false --text=hello --special=foo=bar --empty
