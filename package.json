@@ -22,7 +22,10 @@
         "argv-parser",
         "argv",
         "options",
-        "parser"
+        "parser",
+        "TypeScript",
+        "CommonJS",
+        "Modules"
     ],
     "author": "@uvarovag",
     "license": "MIT",
