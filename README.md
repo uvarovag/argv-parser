@@ -1,6 +1,7 @@
 # Node.js Arguments Parser
 
-![tests](https://github.com/uvarovag/argv-parser/actions/workflows/publish.yml/badge.svg)
+![Bundle Size](https://img.shields.io/bundlephobia/minzip/@uvarovag/argv-parser)
+![Tests](https://github.com/uvarovag/argv-parser/actions/workflows/publish.yml/badge.svg)
 
 Lightweight and flexible arguments parser for Node.js with full support for TypeScript, CommonJS (CJS), and ES Modules (ESM).
 
