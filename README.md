@@ -44,6 +44,7 @@ import { parseArgv } from '@uvarovag/argv-parser'
 const args = parseArgv(process.argv)
 console.log(args)
 
+// Outputs
 {
     node: '/opt/homebrew/Cellar/node/21.2.0/bin/node',
     script: '/Users/uvarovag/Desktop/rect-app/test.js',
