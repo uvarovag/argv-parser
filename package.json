@@ -1,6 +1,6 @@
 {
     "name": "@uvarovag/argv-parser",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Node.js arguments parser with full support for TypeScript, CommonJS, and ES Modules",
     "main": "dist/index.js",
     "module": "dist.es2015/index.js",
